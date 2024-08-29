@@ -7,6 +7,10 @@ body {
     background-color: #0a3b5c; /* Dark blue from the logo */
 }
 
+p{
+    text-align: justify;
+}
+
 img {
     max-width: 100%;
     height: auto;
