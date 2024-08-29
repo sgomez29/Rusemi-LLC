@@ -7,8 +7,9 @@ body {
     background-color: #0a3b5c; /* Dark blue from the logo */
 }
 
-p{
+p, ul {
     text-align: justify;
+    font-size: 18px;
 }
 
 img {
