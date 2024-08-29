@@ -7,6 +7,12 @@ body {
     background-color: #0a3b5c; /* Dark blue from the logo */
 }
 
+/* Responsive images */
+img {
+    max-width: auto;
+    height: auto;
+}
+
 header {
     background-color: #0a3b5c; /* Dark blue background to match the logo */
     color: white;
@@ -57,32 +63,46 @@ footer {
     margin-top: 20px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 0 10px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    section h2 {
+        font-size: 1.8em;
+    }
+
+    .project-item {
+        margin-bottom: 15px;
+    }
 }
 
-form label {
-    margin-bottom: 5px;
+@media (min-width: 769px) {
+    body {
+        padding: 0 50px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    section h2 {
+        font-size: 2.5em;
+    }
+
+    .project-item {
+        margin-bottom: 30px;
+    }
 }
 
-form input, form textarea {
-    margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
 
-form button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #f5c042; /* Gold button */
-    color: #0a3b5c; /* Dark blue text on the button */
-    cursor: pointer;
-    font-weight: bold;
-}
-
-form button:hover {
-    background-color: #e5b732; /* Darker shade of gold on hover */
-}
