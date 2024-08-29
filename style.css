@@ -58,20 +58,19 @@ section {
 }
 
 section h2 {
-    border-bottom: 3px solid #f5c042;
+    color: #f5c042;
+    border-bottom: 3px solid #0a3b5c;
     padding-bottom: 10px;
     display: inline-block;
     margin-bottom: 20px;
 }
 
 footer {
-    background-color: #0a3b5c;
-    color: #fff;
+    background-color: #0a3b5c; /* Dark blue background */
+    color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    margin-top: 20px;
 }
 
 a:hover {
