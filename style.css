@@ -133,7 +133,7 @@ a:hover {
     }
 
     .scroll-container img {
-        max-height: 200px; /* Adjust height for smaller screens */
+        max-height: 400px; /* Adjust height for smaller screens */
     }
 }
 
