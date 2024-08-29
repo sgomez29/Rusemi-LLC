@@ -98,6 +98,10 @@ a:hover {
     .project-item {
         margin-bottom: 20px;
     }
+
+    .clients-collage {
+        margin-bottom: 20px;
+    }
 }
 
 @media (min-width: 769px) {
@@ -114,6 +118,10 @@ a:hover {
     }
 
     .project-item {
+        margin-bottom: 30px;
+    }
+
+    .clients-collage {
         margin-bottom: 30px;
     }
 }
