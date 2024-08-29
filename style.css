@@ -100,9 +100,6 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
-    display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
 }
 
 a:hover {
