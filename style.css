@@ -133,7 +133,7 @@ a:hover {
     }
 
     .scroll-container img {
-        max-height: 400px; /* Adjust height for smaller screens */
+        max-height: 200px; /* Adjust height for smaller screens */
     }
 }
 
@@ -159,7 +159,7 @@ a:hover {
     }
 
      .scroll-container img {
-        max-height: 150px; /* Further adjust height for very small screens */
+        max-height: 500px; /* Further adjust height for very small screens */
     }
 }
 
