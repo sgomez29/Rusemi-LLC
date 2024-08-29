@@ -12,6 +12,25 @@ p {
     font-size: 18px;
 }
 
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+    padding: 10px;
+}
+
+.scroll-container img {
+    max-height: 300px; /* Adjust the size as needed */
+    margin-right: 10px;
+    scroll-snap-align: center;
+    object-fit: cover;
+}
+
+.scroll-container img:last-child {
+    margin-right: 0;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -112,6 +131,10 @@ a:hover {
     .clients-collage {
         margin-bottom: 20px;
     }
+
+    .scroll-container img {
+        max-height: 200px; /* Adjust height for smaller screens */
+    }
 }
 
 @media (min-width: 769px) {
@@ -133,6 +156,10 @@ a:hover {
 
     .clients-collage {
         margin-bottom: 30px;
+    }
+
+     .scroll-container img {
+        max-height: 150px; /* Further adjust height for very small screens */
     }
 }
 
